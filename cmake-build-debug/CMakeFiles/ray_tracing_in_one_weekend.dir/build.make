@@ -77,27 +77,27 @@ include CMakeFiles/ray_tracing_in_one_weekend.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ray_tracing_in_one_weekend.dir/flags.make
 
-CMakeFiles/ray_tracing_in_one_weekend.dir/main.cpp.o: CMakeFiles/ray_tracing_in_one_weekend.dir/flags.make
-CMakeFiles/ray_tracing_in_one_weekend.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/junkang/Documents/GrandLine/ray-tracing-in-one-weekend/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ray_tracing_in_one_weekend.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ray_tracing_in_one_weekend.dir/main.cpp.o -c /Users/junkang/Documents/GrandLine/ray-tracing-in-one-weekend/main.cpp
+CMakeFiles/ray_tracing_in_one_weekend.dir/src/main.cpp.o: CMakeFiles/ray_tracing_in_one_weekend.dir/flags.make
+CMakeFiles/ray_tracing_in_one_weekend.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/junkang/Documents/GrandLine/ray-tracing-in-one-weekend/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ray_tracing_in_one_weekend.dir/src/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ray_tracing_in_one_weekend.dir/src/main.cpp.o -c /Users/junkang/Documents/GrandLine/ray-tracing-in-one-weekend/src/main.cpp
 
-CMakeFiles/ray_tracing_in_one_weekend.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ray_tracing_in_one_weekend.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/junkang/Documents/GrandLine/ray-tracing-in-one-weekend/main.cpp > CMakeFiles/ray_tracing_in_one_weekend.dir/main.cpp.i
+CMakeFiles/ray_tracing_in_one_weekend.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ray_tracing_in_one_weekend.dir/src/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/junkang/Documents/GrandLine/ray-tracing-in-one-weekend/src/main.cpp > CMakeFiles/ray_tracing_in_one_weekend.dir/src/main.cpp.i
 
-CMakeFiles/ray_tracing_in_one_weekend.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ray_tracing_in_one_weekend.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/junkang/Documents/GrandLine/ray-tracing-in-one-weekend/main.cpp -o CMakeFiles/ray_tracing_in_one_weekend.dir/main.cpp.s
+CMakeFiles/ray_tracing_in_one_weekend.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ray_tracing_in_one_weekend.dir/src/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/junkang/Documents/GrandLine/ray-tracing-in-one-weekend/src/main.cpp -o CMakeFiles/ray_tracing_in_one_weekend.dir/src/main.cpp.s
 
 # Object files for target ray_tracing_in_one_weekend
 ray_tracing_in_one_weekend_OBJECTS = \
-"CMakeFiles/ray_tracing_in_one_weekend.dir/main.cpp.o"
+"CMakeFiles/ray_tracing_in_one_weekend.dir/src/main.cpp.o"
 
 # External object files for target ray_tracing_in_one_weekend
 ray_tracing_in_one_weekend_EXTERNAL_OBJECTS =
 
-ray_tracing_in_one_weekend: CMakeFiles/ray_tracing_in_one_weekend.dir/main.cpp.o
+ray_tracing_in_one_weekend: CMakeFiles/ray_tracing_in_one_weekend.dir/src/main.cpp.o
 ray_tracing_in_one_weekend: CMakeFiles/ray_tracing_in_one_weekend.dir/build.make
 ray_tracing_in_one_weekend: CMakeFiles/ray_tracing_in_one_weekend.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/junkang/Documents/GrandLine/ray-tracing-in-one-weekend/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ray_tracing_in_one_weekend"

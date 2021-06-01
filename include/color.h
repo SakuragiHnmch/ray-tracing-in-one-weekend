@@ -1,0 +1,8 @@
+//
+// Created by macbook on 2021/6/1.
+//
+
+#ifndef RAY_TRACING_IN_ONE_WEEKEND_COLOR_H
+#define RAY_TRACING_IN_ONE_WEEKEND_COLOR_H
+
+#endif //RAY_TRACING_IN_ONE_WEEKEND_COLOR_H
