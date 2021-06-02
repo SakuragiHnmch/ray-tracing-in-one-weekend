@@ -1,3 +1,0 @@
-/Users/junkang/Documents/GrandLine/ray-tracing-in-one-weekend/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/junkang/Documents/GrandLine/ray-tracing-in-one-weekend/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/junkang/Documents/GrandLine/ray-tracing-in-one-weekend/cmake-build-debug/CMakeFiles/ray_tracing_in_one_weekend.dir
