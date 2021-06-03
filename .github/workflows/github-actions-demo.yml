@@ -8,3 +8,4 @@ jobs:
       #- uses: actions/setup-node@v1
       - run: brew -v
       - run: brew install automake
+      - run: hdiutil help
