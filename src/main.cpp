@@ -15,7 +15,7 @@ color ray_color(const ray& r, const hittable& world, int depth) {
         return color(0, 0,0);
     }
 
-    if (world.hit(r, 0, infinity, rec)) {
+    if (world.hit(r, 0.001, infinity, rec)) {
         //get a random point in unit radius sphere
         point3 target = rec.p + rec.normal + random_in_unit_sphere();
         return 0.5 * ray_color(ray(rec.p, target - rec.p), world, depth - 1);
@@ -31,7 +31,7 @@ int main() {
     const int image_width = 400;
     const int image_height = static_cast<int>(image_width / aspect_ratio);
     const int samples_per_pixel = 100;
-    const int max_depth = 5;
+    const int max_depth = 20;
 
     //world
     hittable_list world;
